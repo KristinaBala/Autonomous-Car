@@ -1,0 +1,47 @@
+int motorRight  = 5 ;
+int motorLeft   = 6 ;
+int sensorRight = 7 ;
+int sensorLeft  = 8 ;
+int sensorRighValue ;
+int sensorLeftValue ;
+
+int checkSensors
+{
+sensorRighValue = digitalREAD(7);
+sensorLeftValue = digitalREAD(8);
+}
+
+
+void setup()
+{
+pinMode(motorRight  ,OUTPUT) ;
+pinMode(motorLeft   ,OUTPUT) ;
+pinMode(sensorRight ,INPUT)  ;
+pinMode(sensorLeft  ,INPUT)  ;
+}
+
+void loop()
+{
+checkSensors ; 
+
+  if(sensorRighValue =1 && sensorLeftValue =0)
+  {
+    do   { digitalWrite(motorRight,LOW); digitalWrite(motorLeft,HIGH); checkSensors; }
+    while(!(sensorRighValue =0 && sensorLeftValue =0))
+  }
+ 
+ 
+  else if(sensorRighValue =0 && sensorLeftValue =1)
+  {
+    do   { digitalWrite(motorRight,HIGH); digitalWrite(motorLeft,LOW); checkSensors; }
+    while(!(sensorRighValue =0 && sensorLeftValue =0))
+  }
+ 
+}
+
+
+
+
+
+
+}
