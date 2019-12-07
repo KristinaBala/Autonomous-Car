@@ -24,17 +24,17 @@ void loop()
 {
 checkSensors ; 
 
-  if(sensorRighValue =1 && sensorLeftValue =0)
+  if(sensorRighValue ==1 && sensorLeftValue ==0)
   {
     do   { digitalWrite(motorRight,HIGH); digitalWrite(motorLeft,LOW); checkSensors; }
-    while(!(sensorRighValue =0 && sensorLeftValue =0))
+    while(!(sensorRighValue ==0 && sensorLeftValue ==0))
   }
  
  
-  else if(sensorRighValue =0 && sensorLeftValue =1)
+  else if(sensorRighValue ==0 && sensorLeftValue ==1)
   {
     do   { digitalWrite(motorRight,LOW); digitalWrite(motorLeft,HIGH); checkSensors; }
-    while(!(sensorRighValue =0 && sensorLeftValue =0))
+    while(!(sensorRighValue ==0 && sensorLeftValue ==0))
   }
  
 }
