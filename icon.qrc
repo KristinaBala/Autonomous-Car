@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Light.png</file>
+        <file>Light_ON.png</file>
+        <file>blue.png</file>
+        <file>bat.jfif</file>
+        <file>wifi.jfif</file>
+        <file>menu.png</file>
+        <file>info.jfif</file>
+        <file>light_off.png</file>
+    </qresource>
+</RCC>
