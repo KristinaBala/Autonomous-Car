@@ -1,12 +1,23 @@
 Enkeledi Mema:
-•	Implementation of the sensors
-•	Developing a smart LED communication.
+•Implementation of the sensors
+Ultrasonic sensors
+Line tracking sensors
+•Developing a smart LED communication.
 -inspection 3
 
 Kristina Bala
-•	System design using UML diagrams.
-•	Implementation of the Raspberry Pi and camera.
--inspection 1
+abstract
+System design using UML diagrams.
+use case diagram
+state machine diagram
+RASPBERRY PI 3 and CAMERA MODULE V2 - Live Streaming
+Installing the operating system on the microSD card
+Configuration
+Camera Module V2 Configuration
+TCP/IP Networking
+Live video streaming 
+I2C Communication between the Raspberry Pi and 
+inspection 1
 
 Yahia:
 •	Building the hardware and connecting the components. (wiring)
